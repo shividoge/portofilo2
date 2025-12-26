@@ -1,0 +1,360 @@
+<!-- index.html -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Shivin Anand — Robotics leader, builder, and researcher. Portfolio of projects, leadership, and work in embedded systems & automation." />
+    <title>Shivin Anand</title>
+
+    <!-- Social preview -->
+    <meta property="og:title" content="Shivin Anand" />
+    <meta property="og:description" content="Robotics • Research • Projects — Lab Bench & Launchpad." />
+    <meta property="og:type" content="website" />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="./css/system.css" />
+    <link rel="stylesheet" href="./css/components.css" />
+    <link rel="stylesheet" href="./css/pages.css" />
+
+    <!-- Favicons (optional) -->
+    <!-- <link rel="icon" href="./assets/icons/favicon.png" /> -->
+  </head>
+
+  <body>
+    <!-- Skip link for accessibility -->
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <!-- NAV -->
+    <header class="site-header" data-reveal>
+      <div class="container nav-wrap">
+        <a class="brand" href="./index.html" aria-label="Home">
+          <span class="brand-mark" aria-hidden="true">SA</span>
+          <span class="brand-name">Shivin Anand</span>
+        </a>
+
+        <nav class="nav" aria-label="Primary">
+          <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="navMenu">
+            <span class="nav-toggle-label">Menu</span>
+            <span class="nav-toggle-icon" aria-hidden="true"></span>
+          </button>
+
+          <div id="navMenu" class="nav-menu">
+            <a class="nav-link" href="./work.html">Work</a>
+            <a class="nav-link" href="./about.html">About</a>
+            <a class="nav-link" href="./contact.html">Contact</a>
+            <a class="nav-link nav-link-pill" href="#launchpad">Launchpad</a>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <!-- HERO -->
+      <section class="section hero">
+        <div class="container hero-grid">
+          <div class="hero-copy" data-reveal>
+            <p class="eyebrow">Lab Bench / Launchpad</p>
+            <h1>
+              I build systems that
+              <span class="accent">move ideas into reality.</span>
+            </h1>
+            <p class="hero-subtitle">
+              Robotics leader, researcher, and builder focused on embedded systems, automation, and
+              real-world engineering.
+            </p>
+
+            <div class="hero-cta">
+              <a class="btn btn-primary" href="./work.html">
+                View Work
+                <span aria-hidden="true">→</span>
+              </a>
+              <a class="btn btn-secondary" href="./contact.html">Contact</a>
+            </div>
+
+            <div class="hero-stats grid cols-3" aria-label="Quick stats">
+              <div class="stat card" data-reveal>
+                <div class="stat-number" data-count="1010">0</div>
+                <p class="stat-label">Lines of code</p>
+              </div>
+              <div class="stat card" data-reveal>
+                <div class="stat-number" data-count="12">0</div>
+                <p class="stat-label">Projects shipped</p>
+              </div>
+              <div class="stat card" data-reveal>
+                <div class="stat-number" data-count="9">0</div>
+                <p class="stat-label">Teams supported</p>
+              </div>
+            </div>
+
+            <div class="hero-note" data-reveal>
+              <p class="micro">
+                <span class="micro-strong">Human note:</span> I care about clarity—systems should be
+                powerful <em>and</em> understandable.
+              </p>
+            </div>
+          </div>
+
+          <aside class="hero-panel card" data-reveal>
+            <h2 class="panel-title">Right now</h2>
+            <p class="panel-sub">What I’m actively building / iterating.</p>
+
+            <div class="panel-feature">
+              <div class="chip-row">
+                <span class="chip">Embedded</span>
+                <span class="chip">Automation</span>
+                <span class="chip">Computer Vision</span>
+              </div>
+
+              <h3 class="panel-h3">Autonomous Growth System</h3>
+              <p class="panel-p">
+                Sensors + control loops + vision to monitor and optimize plant growth (built for
+                long-term reliability).
+              </p>
+
+              <div class="panel-actions">
+                <a class="btn btn-tertiary" href="./work.html">See case studies</a>
+                <button class="btn btn-tertiary" type="button" data-open-modal="featured">
+                  Quick view
+                </button>
+              </div>
+            </div>
+
+            <div class="panel-divider" role="separator" aria-hidden="true"></div>
+
+            <div class="panel-mini grid">
+              <div class="mini" data-reveal>
+                <p class="mini-kicker">I like to build with</p>
+                <p class="mini-text">Teensy / Arduino • CAD • PCB design • Python • JS</p>
+              </div>
+              <div class="mini" data-reveal>
+                <p class="mini-kicker">I optimize for</p>
+                <p class="mini-text">fast iteration • clean interfaces • measurable impact</p>
+              </div>
+            </div>
+          </aside>
+        </div>
+
+        <div class="container hero-scroll" data-reveal>
+          <a class="scroll-hint" href="#lab-bench" aria-label="Scroll to Lab Bench">
+            <span class="scroll-dot" aria-hidden="true"></span>
+            <span class="scroll-text">Scroll</span>
+          </a>
+        </div>
+      </section>
+
+      <!-- LAB BENCH -->
+      <section id="lab-bench" class="section">
+        <div class="container section-head" data-reveal>
+          <h2>Lab Bench</h2>
+          <p>
+            Where I sharpen fundamentals: robotics leadership, certifications, and skills gained from
+            coursework—then apply them under real constraints.
+          </p>
+        </div>
+
+        <div class="container grid cols-3">
+          <!-- Robotics -->
+          <article class="card feature-card" data-reveal>
+            <div class="feature-top">
+              <h3>Robotics</h3>
+              <p class="muted">
+                Team leadership, build systems, strategy, and mentoring across multiple subteams.
+              </p>
+            </div>
+            <ul class="bullets">
+              <li>Engineering process + deadlines</li>
+              <li>Manufacturing + integration</li>
+              <li>Mentoring & team structure</li>
+            </ul>
+            <button class="btn btn-tertiary" type="button" data-open-modal="robotics">
+              Open details
+            </button>
+          </article>
+
+          <!-- Certifications -->
+          <article class="card feature-card" data-reveal>
+            <div class="feature-top">
+              <h3>Certifications</h3>
+              <p class="muted">Credentials that back up what I can do—and what I’m learning next.</p>
+            </div>
+            <ul class="bullets">
+              <li>Coming soon: list yours here</li>
+              <li>Include issuer + year</li>
+              <li>Link the verification</li>
+            </ul>
+            <button class="btn btn-tertiary" type="button" data-open-modal="certs">
+              Open details
+            </button>
+          </article>
+
+          <!-- Classes → Skills -->
+          <article class="card feature-card" data-reveal>
+            <div class="feature-top">
+              <h3>Class-built skills</h3>
+              <p class="muted">The skills I picked up in class that now show up in my builds.</p>
+            </div>
+            <ul class="bullets">
+              <li>Systems thinking</li>
+              <li>Data + analysis</li>
+              <li>Communication</li>
+            </ul>
+            <button class="btn btn-tertiary" type="button" data-open-modal="classes">
+              Open details
+            </button>
+          </article>
+        </div>
+
+        <div class="container section-foot" data-reveal>
+          <a class="btn btn-secondary" href="./about.html">More about my path</a>
+        </div>
+      </section>
+
+      <!-- LAUNCHPAD -->
+      <section id="launchpad" class="section">
+        <div class="container section-head" data-reveal>
+          <h2>Launchpad</h2>
+          <p>
+            Where I push beyond the syllabus: research, personal engineering projects, and the things
+            I’m curious enough to build anyway.
+          </p>
+        </div>
+
+        <div class="container grid cols-3">
+          <!-- Research -->
+          <article class="card feature-card" data-reveal>
+            <div class="feature-top">
+              <h3>Research</h3>
+              <p class="muted">Work that demands rigor: experiments, iteration, and proof.</p>
+            </div>
+            <ul class="bullets">
+              <li>Lab collaboration</li>
+              <li>Instrumentation + automation</li>
+              <li>Documentation</li>
+            </ul>
+            <button class="btn btn-tertiary" type="button" data-open-modal="research">
+              Open details
+            </button>
+          </article>
+
+          <!-- Projects -->
+          <article class="card feature-card" data-reveal>
+            <div class="feature-top">
+              <h3>Projects</h3>
+              <p class="muted">End-to-end builds—hardware, software, and product thinking.</p>
+            </div>
+            <ul class="bullets">
+              <li>Embedded + firmware</li>
+              <li>Web + UI</li>
+              <li>Prototyping loops</li>
+            </ul>
+            <a class="btn btn-tertiary" href="./work.html">Browse projects</a>
+          </article>
+
+          <!-- About me -->
+          <article class="card feature-card" data-reveal>
+            <div class="feature-top">
+              <h3>About me</h3>
+              <p class="muted">A little more human: what I value, how I work, what I’m exploring.</p>
+            </div>
+            <ul class="bullets">
+              <li>Bias toward building</li>
+              <li>Teaching through clarity</li>
+              <li>Iterate fast, document well</li>
+            </ul>
+            <a class="btn btn-tertiary" href="./about.html">Read more</a>
+          </article>
+        </div>
+      </section>
+
+      <!-- BUILD LOG -->
+      <section class="section">
+        <div class="container section-head" data-reveal>
+          <h2>Build Log</h2>
+          <p>Short notes from the process—small lessons, big compounding.</p>
+        </div>
+
+        <div class="container grid cols-3">
+          <article class="card log-card" data-reveal>
+            <p class="log-date">Entry 01</p>
+            <h3>Design for assembly</h3>
+            <p>
+              I stopped optimizing parts first and started optimizing the *hand-off* between parts.
+              Integration got smoother overnight.
+            </p>
+          </article>
+
+          <article class="card log-card" data-reveal>
+            <p class="log-date">Entry 02</p>
+            <h3>Make signals visible</h3>
+            <p>
+              Debugging improved when I added lightweight telemetry—simple dashboards beat guessing
+              every time.
+            </p>
+          </article>
+
+          <article class="card log-card" data-reveal>
+            <p class="log-date">Entry 03</p>
+            <h3>Document like a teammate</h3>
+            <p>
+              If future-me can’t reproduce it in 10 minutes, it’s not done. Notes aren’t extra—they’re
+              leverage.
+            </p>
+          </article>
+        </div>
+
+        <div class="container section-foot" data-reveal>
+          <a class="btn btn-primary" href="./contact.html">Let’s build something</a>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="site-footer" data-reveal>
+      <div class="container footer-grid">
+        <div>
+          <p class="footer-brand">Shivin Anand</p>
+          <p class="footer-muted">Lab Bench / Launchpad</p>
+        </div>
+
+        <div class="footer-links">
+          <a href="./work.html">Work</a>
+          <a href="./about.html">About</a>
+          <a href="./contact.html">Contact</a>
+        </div>
+
+        <div class="footer-links">
+          <!-- Replace with your real links -->
+          <a href="#" rel="noopener">GitHub</a>
+          <a href="#" rel="noopener">LinkedIn</a>
+          <a href="#" rel="noopener">Resume</a>
+        </div>
+      </div>
+
+      <div class="container footer-bottom">
+        <p class="footer-muted">© <span id="year"></span> Shivin Anand. Built with intention.</p>
+      </div>
+    </footer>
+
+    <!-- MODAL (reusable) -->
+    <div class="modal" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Details modal">
+      <div class="modal-backdrop" data-close-modal></div>
+      <div class="modal-panel" role="document">
+        <button class="modal-close" type="button" aria-label="Close" data-close-modal>✕</button>
+        <div class="modal-content" id="modalContent">
+          <!-- Filled by JS -->
+          <h3>Loading…</h3>
+          <p></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="./js/data.js"></script>
+    <script src="./js/main.js"></script>
+    <script>
+      // tiny footer year fallback (ok even before main.js exists)
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
